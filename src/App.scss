@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  .content {
+    position: relative;
+    left: 250px;
+    top: 0;
+    width: calc(100% - 250px);
+    height: 100vh;
+
+    h1 {
+      text-align: center;
+    }
+  }
+}
